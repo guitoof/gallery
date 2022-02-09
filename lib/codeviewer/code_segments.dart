@@ -5,7 +5,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-// @dart=2.9
+// @dart=2.12
 
 import 'package:flutter/material.dart';
 import 'package:gallery/codeviewer/code_style.dart';
@@ -26,7 +26,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -343,7 +343,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -1142,7 +1142,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -2130,7 +2130,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -3066,7 +3066,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -3372,7 +3372,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -3779,7 +3779,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -3950,7 +3950,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -4125,7 +4125,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -4296,7 +4296,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -4467,7 +4467,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -4769,7 +4769,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -7141,7 +7141,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -7263,7 +7263,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -7651,7 +7651,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -8080,7 +8080,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -8221,7 +8221,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -9701,7 +9701,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -9833,7 +9833,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -11959,7 +11959,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -12168,7 +12168,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -12510,7 +12510,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -13115,7 +13115,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -13551,7 +13551,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -14902,7 +14902,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -15294,7 +15294,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -15772,7 +15772,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -16301,7 +16301,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -16564,7 +16564,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -16998,7 +16998,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -19060,7 +19060,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -22265,7 +22265,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -24084,7 +24084,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -24293,7 +24293,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -25115,7 +25115,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -26040,7 +26040,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -27149,7 +27149,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -27410,7 +27410,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -28329,7 +28329,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -28623,7 +28623,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -29027,7 +29027,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -29477,7 +29477,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -29807,7 +29807,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -30331,7 +30331,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -33205,7 +33205,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -34475,7 +34475,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -35036,7 +35036,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -35589,7 +35589,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -35933,7 +35933,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -36189,7 +36189,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -36418,7 +36418,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -37684,7 +37684,7 @@ class CodeSegments {
   static TextSpan sharedYAxisTransitionDemo(BuildContext context) {
     final codeStyle = CodeStyle.of(context);
     return TextSpan(children: [
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -38670,7 +38670,7 @@ class CodeSegments {
   static TextSpan sharedZAxisTransitionDemo(BuildContext context) {
     final codeStyle = CodeStyle.of(context);
     return TextSpan(children: [
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -39927,7 +39927,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -40514,7 +40514,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -40763,7 +40763,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -41169,7 +41169,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -41650,7 +41650,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -44059,7 +44059,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -44307,7 +44307,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -47415,7 +47415,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),
@@ -48039,7 +48039,7 @@ class CodeSegments {
       TextSpan(
           style: codeStyle.commentStyle, text: '// found in the LICENSE file.'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
-      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.9'),
+      TextSpan(style: codeStyle.commentStyle, text: '// @dart=2.12'),
       TextSpan(style: codeStyle.baseStyle, text: '\u000a\u000a'),
       TextSpan(style: codeStyle.keywordStyle, text: 'import'),
       TextSpan(style: codeStyle.baseStyle, text: ' '),

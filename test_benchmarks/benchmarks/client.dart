@@ -1,4 +1,4 @@
-// @dart=2.9
+// @dart=2.12
 
 import 'package:web_benchmarks/client.dart';
 
