@@ -1,4 +1,4 @@
-// @dart=2.12
+// @dart=2.9
 
 export 'package:gallery/demos/material/app_bar_demo.dart';
 export 'package:gallery/demos/material/banner_demo.dart';

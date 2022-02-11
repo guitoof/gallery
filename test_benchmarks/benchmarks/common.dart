@@ -1,4 +1,4 @@
-// @dart=2.12
+// @dart=2.9
 
 const String galleryBenchmarkPrefix = 'gallery_v2';
 
