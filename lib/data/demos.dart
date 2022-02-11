@@ -72,31 +72,28 @@ class GalleryDemo {
     this.slug,
     this.icon,
     this.configurations,
-  })  : assert(title != null),
-        assert(category != null),
-        assert(subtitle != null),
-        assert(category == GalleryDemoCategory.study ||
+  })  : assert(category == GalleryDemoCategory.study ||
             (slug != null && icon != null && configurations != null)),
         assert(slug != null || studyId != null);
 
   final String title;
   final GalleryDemoCategory category;
   final String subtitle;
-  final String studyId;
-  final String slug;
-  final IconData icon;
-  final List<GalleryDemoConfiguration> configurations;
+  final String? studyId;
+  final String? slug;
+  final IconData? icon;
+  final List<GalleryDemoConfiguration>? configurations;
 
   String get describe => '${slug ?? studyId}@${category.name}';
 }
 
 class GalleryDemoConfiguration {
   const GalleryDemoConfiguration({
-    this.title,
-    this.description,
-    this.documentationUrl,
-    this.buildRoute,
-    this.code,
+    required this.title,
+    required this.description,
+    required this.documentationUrl,
+    required this.buildRoute,
+    required this.code,
   });
 
   final String title;
