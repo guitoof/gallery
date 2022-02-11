@@ -15,7 +15,7 @@ import 'package:scoped_model/scoped_model.dart';
 
 class MobileProductCard extends StatelessWidget {
   const MobileProductCard({
-    Key key,
+    Key? key,
     this.imageAspectRatio = 33 / 49,
     this.product,
   })  : assert(imageAspectRatio == null || imageAspectRatio > 0),
@@ -43,7 +43,7 @@ class MobileProductCard extends StatelessWidget {
 
 class DesktopProductCard extends StatelessWidget {
   const DesktopProductCard(
-      {Key key, @required this.product, @required this.imageWidth})
+      {Key? key, required this.product, required this.imageWidth})
       : super(key: key);
 
   final Product product;

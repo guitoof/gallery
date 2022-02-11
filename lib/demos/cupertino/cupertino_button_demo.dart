@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN cupertinoButtonDemo
 
 class CupertinoButtonDemo extends StatelessWidget {
-  const CupertinoButtonDemo({Key key}) : super(key: key);
+  const CupertinoButtonDemo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

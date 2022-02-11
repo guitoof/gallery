@@ -10,7 +10,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 
 class Category {
   const Category({
-    @required this.name,
+    required this.name,
   }) : assert(name != null);
 
   // A function taking a BuildContext as input and
@@ -45,11 +45,11 @@ List<Category> categories = [
 
 class Product {
   const Product({
-    @required this.category,
-    @required this.id,
-    @required this.isFeatured,
-    @required this.name,
-    @required this.price,
+    required this.category,
+    required this.id,
+    required this.isFeatured,
+    required this.name,
+    required this.price,
     this.assetAspectRatio = 1,
   })  : assert(category != null),
         assert(id != null),

@@ -11,7 +11,7 @@ import 'package:intl/intl.dart';
 // BEGIN cupertinoPickersDemo
 
 class CupertinoPickerDemo extends StatefulWidget {
-  const CupertinoPickerDemo({Key key}) : super(key: key);
+  const CupertinoPickerDemo({Key? key}) : super(key: key);
 
   @override
   _CupertinoPickerDemoState createState() => _CupertinoPickerDemoState();
@@ -30,8 +30,8 @@ class _CupertinoPickerDemoState extends State<CupertinoPickerDemo> {
   DateTime dateTime = DateTime.now();
 
   void _showDemoPicker({
-    @required BuildContext context,
-    @required Widget child,
+    required BuildContext context,
+    required Widget child,
   }) {
     final themeData = CupertinoTheme.of(context);
     final dialogBody = CupertinoTheme(
@@ -203,8 +203,8 @@ class _CupertinoPickerDemoState extends State<CupertinoPickerDemo> {
 
 class _BottomPicker extends StatelessWidget {
   const _BottomPicker({
-    Key key,
-    @required this.child,
+    Key? key,
+    required this.child,
   })  : assert(child != null),
         super(key: key);
 
@@ -239,8 +239,8 @@ class _BottomPicker extends StatelessWidget {
 
 class _Menu extends StatelessWidget {
   const _Menu({
-    Key key,
-    @required this.children,
+    Key? key,
+    required this.children,
   })  : assert(children != null),
         super(key: key);
 

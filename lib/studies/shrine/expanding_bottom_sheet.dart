@@ -50,9 +50,9 @@ double _paddedThumbnailHeight(BuildContext context) {
 
 class ExpandingBottomSheet extends StatefulWidget {
   const ExpandingBottomSheet({
-    Key key,
-    @required this.hideController,
-    @required this.expandingController,
+    Key? key,
+    required this.hideController,
+    required this.expandingController,
   })  : assert(hideController != null),
         assert(expandingController != null),
         super(key: key);
@@ -83,11 +83,11 @@ class ExpandingBottomSheet extends StatefulWidget {
 // curve formula. It's quintic, not cubic. But it _can_ be expressed as one
 // curve followed by another, which we do here.
 Animation<T> _getEmphasizedEasingAnimation<T>({
-  @required T begin,
-  @required T peak,
-  @required T end,
-  @required bool isForward,
-  @required Animation<double> parent,
+  required T begin,
+  required T peak,
+  required T end,
+  required bool isForward,
+  required Animation<double> parent,
 }) {
   Curve firstCurve;
   Curve secondCurve;
@@ -574,7 +574,7 @@ class _ExpandingBottomSheetState extends State<ExpandingBottomSheet> {
 }
 
 class ProductThumbnailRow extends StatefulWidget {
-  const ProductThumbnailRow({Key key}) : super(key: key);
+  const ProductThumbnailRow({Key? key}) : super(key: key);
 
   @override
   _ProductThumbnailRowState createState() => _ProductThumbnailRowState();
@@ -691,7 +691,7 @@ class _ProductThumbnailRowState extends State<ProductThumbnailRow> {
 }
 
 class ExtraProductsNumber extends StatelessWidget {
-  const ExtraProductsNumber({Key key}) : super(key: key);
+  const ExtraProductsNumber({Key? key}) : super(key: key);
 
   // Calculates the number to be displayed at the end of the row if there are
   // more than three products in the cart. This calculates overflow products,
@@ -735,7 +735,7 @@ class ExtraProductsNumber extends StatelessWidget {
 
 class ProductThumbnail extends StatelessWidget {
   const ProductThumbnail(this.animation, this.opacityAnimation, this.product,
-      {Key key})
+      {Key? key})
       : super(key: key);
 
   final Animation<double> animation;
@@ -775,8 +775,8 @@ class ProductThumbnail extends StatelessWidget {
 // _ListModel manipulates an internal list and an AnimatedList
 class _ListModel {
   _ListModel({
-    @required this.listKey,
-    @required this.removedItemBuilder,
+    required this.listKey,
+    required this.removedItemBuilder,
     Iterable<int> initialItems,
   })  : assert(listKey != null),
         assert(removedItemBuilder != null),

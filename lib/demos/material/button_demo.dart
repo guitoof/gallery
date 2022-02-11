@@ -10,7 +10,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/demos/material/material_demo_types.dart';
 
 class ButtonDemo extends StatelessWidget {
-  const ButtonDemo({Key key, this.type}) : super(key: key);
+  const ButtonDemo({Key? key, this.type}) : super(key: key);
 
   final ButtonDemoType type;
 

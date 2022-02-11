@@ -17,9 +17,9 @@ import 'package:vector_math/vector_math_64.dart' show Vector3;
 @immutable
 class Board extends Object with IterableMixin<BoardPoint> {
   Board({
-    @required this.boardRadius,
-    @required this.hexagonRadius,
-    @required this.hexagonMargin,
+    required this.boardRadius,
+    required this.hexagonRadius,
+    required this.hexagonMargin,
     this.selected,
     List<BoardPoint> boardPoints,
   })  : assert(boardRadius > 0),

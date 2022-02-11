@@ -23,7 +23,7 @@ import 'package:gallery/studies/shrine/theme.dart';
 import 'package:scoped_model/scoped_model.dart';
 
 class ShrineApp extends StatefulWidget {
-  const ShrineApp({Key key}) : super(key: key);
+  const ShrineApp({Key? key}) : super(key: key);
 
   static const String loginRoute = routes.loginRoute;
   static const String homeRoute = routes.homeRoute;

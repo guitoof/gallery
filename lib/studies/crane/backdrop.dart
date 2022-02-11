@@ -21,7 +21,7 @@ import 'package:gallery/studies/crane/model/destination.dart';
 
 class _FrontLayer extends StatefulWidget {
   const _FrontLayer({
-    Key key,
+    Key? key,
     this.title,
     this.index,
     this.mobileTopOffset,
@@ -139,11 +139,11 @@ class Backdrop extends StatefulWidget {
   final Widget backTitle;
 
   const Backdrop({
-    Key key,
-    @required this.frontLayer,
-    @required this.backLayerItems,
-    @required this.frontTitle,
-    @required this.backTitle,
+    Key? key,
+    required this.frontLayer,
+    required this.backLayerItems,
+    required this.frontTitle,
+    required this.backTitle,
   })  : assert(frontLayer != null),
         assert(backLayerItems != null),
         assert(frontTitle != null),
@@ -310,7 +310,7 @@ class CraneAppBar extends StatefulWidget {
   final Function(int) tabHandler;
   final TabController tabController;
 
-  const CraneAppBar({Key key, this.tabHandler, this.tabController})
+  const CraneAppBar({Key? key, this.tabHandler, this.tabController})
       : super(key: key);
 
   @override

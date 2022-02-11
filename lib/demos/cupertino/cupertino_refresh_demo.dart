@@ -13,7 +13,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN cupertinoRefreshDemo
 
 class CupertinoRefreshControlDemo extends StatefulWidget {
-  const CupertinoRefreshControlDemo({Key key}) : super(key: key);
+  const CupertinoRefreshControlDemo({Key? key}) : super(key: key);
 
   @override
   _CupertinoRefreshControlDemoState createState() =>

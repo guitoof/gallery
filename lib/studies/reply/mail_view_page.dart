@@ -7,7 +7,7 @@ import 'package:gallery/studies/reply/profile_avatar.dart';
 import 'package:provider/provider.dart';
 
 class MailViewPage extends StatelessWidget {
-  const MailViewPage({Key key, @required this.id, @required this.email})
+  const MailViewPage({Key? key, required this.id, required this.email})
       : assert(id != null),
         assert(email != null),
         super(key: key);
@@ -53,7 +53,7 @@ class MailViewPage extends StatelessWidget {
 
 class _MailViewHeader extends StatelessWidget {
   const _MailViewHeader({
-    @required this.email,
+    required this.email,
   }) : assert(email != null);
 
   final Email email;
@@ -121,7 +121,7 @@ class _MailViewHeader extends StatelessWidget {
 }
 
 class _MailViewBody extends StatelessWidget {
-  const _MailViewBody({@required this.message}) : assert(message != null);
+  const _MailViewBody({required this.message}) : assert(message != null);
 
   final String message;
 

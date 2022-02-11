@@ -12,7 +12,7 @@ import 'package:intl/intl.dart';
 // BEGIN pickerDemo
 
 class PickerDemo extends StatefulWidget {
-  const PickerDemo({Key key, this.type}) : super(key: key);
+  const PickerDemo({Key? key, this.type}) : super(key: key);
 
   final PickerDemoType type;
 

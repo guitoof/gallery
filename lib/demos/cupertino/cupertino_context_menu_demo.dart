@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN cupertinoContextMenuDemo
 
 class CupertinoContextMenuDemo extends StatelessWidget {
-  const CupertinoContextMenuDemo({Key key}) : super(key: key);
+  const CupertinoContextMenuDemo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

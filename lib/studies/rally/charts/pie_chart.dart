@@ -68,7 +68,7 @@ List<RallyPieChartSegment> buildSegmentsFromBudgetItems(
 /// have empty space.
 class RallyPieChart extends StatefulWidget {
   const RallyPieChart({
-    Key key,
+    Key? key,
     this.heroLabel,
     this.heroAmount,
     this.wholeAmount,
@@ -133,7 +133,7 @@ class _RallyPieChartState extends State<RallyPieChart>
 
 class _AnimatedRallyPieChart extends AnimatedWidget {
   const _AnimatedRallyPieChart({
-    Key key,
+    Key? key,
     this.animation,
     this.centerLabel,
     this.centerAmount,

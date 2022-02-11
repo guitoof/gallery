@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN cupertinoSwitchDemo
 
 class CupertinoSwitchDemo extends StatefulWidget {
-  const CupertinoSwitchDemo({Key key}) : super(key: key);
+  const CupertinoSwitchDemo({Key? key}) : super(key: key);
 
   @override
   _CupertinoSwitchDemoState createState() => _CupertinoSwitchDemoState();

@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN cupertinoSliderDemo
 
 class CupertinoSliderDemo extends StatefulWidget {
-  const CupertinoSliderDemo({Key key}) : super(key: key);
+  const CupertinoSliderDemo({Key? key}) : super(key: key);
 
   @override
   _CupertinoSliderDemoState createState() => _CupertinoSliderDemoState();

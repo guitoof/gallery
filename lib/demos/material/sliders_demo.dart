@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/demos/material/material_demo_types.dart';
 
 class SlidersDemo extends StatelessWidget {
-  const SlidersDemo({Key key, this.type}) : super(key: key);
+  const SlidersDemo({Key? key, this.type}) : super(key: key);
 
   final SlidersDemoType type;
 
@@ -304,13 +304,13 @@ class _CustomRangeThumbShape extends RangeSliderThumbShape {
   void paint(
     PaintingContext context,
     Offset center, {
-    @required Animation<double> activationAnimation,
-    @required Animation<double> enableAnimation,
+    required Animation<double> activationAnimation,
+    required Animation<double> enableAnimation,
     bool isDiscrete = false,
     bool isEnabled = false,
     bool isOnTop,
     TextDirection textDirection,
-    @required SliderThemeData sliderTheme,
+    required SliderThemeData sliderTheme,
     Thumb thumb,
     bool isPressed,
   }) {

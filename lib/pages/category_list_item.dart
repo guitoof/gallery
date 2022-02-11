@@ -14,7 +14,7 @@ typedef CategoryHeaderTapCallback = Function(bool shouldOpenList);
 
 class CategoryListItem extends StatefulWidget {
   const CategoryListItem({
-    Key key,
+    Key? key,
     this.restorationId,
     this.category,
     this.imageString,
@@ -163,7 +163,7 @@ class _CategoryListItemState extends State<CategoryListItem>
 
 class _CategoryHeader extends StatelessWidget {
   const _CategoryHeader({
-    Key key,
+    Key? key,
     this.margin,
     this.imagePadding,
     this.borderRadius,
@@ -255,7 +255,7 @@ class _CategoryHeader extends StatelessWidget {
 
 class _ExpandedCategoryDemos extends StatelessWidget {
   const _ExpandedCategoryDemos({
-    Key key,
+    Key? key,
     this.category,
     this.demos,
   }) : super(key: key);
@@ -280,7 +280,7 @@ class _ExpandedCategoryDemos extends StatelessWidget {
 }
 
 class CategoryDemoItem extends StatelessWidget {
-  const CategoryDemoItem({Key key, this.demo}) : super(key: key);
+  const CategoryDemoItem({Key? key, this.demo}) : super(key: key);
 
   final GalleryDemo demo;
 

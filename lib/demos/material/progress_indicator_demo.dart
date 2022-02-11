@@ -11,7 +11,7 @@ import 'package:gallery/demos/material/material_demo_types.dart';
 // BEGIN progressIndicatorsDemo
 
 class ProgressIndicatorDemo extends StatefulWidget {
-  const ProgressIndicatorDemo({Key key, this.type}) : super(key: key);
+  const ProgressIndicatorDemo({Key? key, this.type}) : super(key: key);
 
   final ProgressIndicatorDemoType type;
 

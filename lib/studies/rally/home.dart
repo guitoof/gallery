@@ -20,7 +20,7 @@ const int turnsToRotateRight = 1;
 const int turnsToRotateLeft = 3;
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key key}) : super(key: key);
+  const HomePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -231,7 +231,7 @@ class _HomePageState extends State<HomePage>
 }
 
 class _RallyTabBar extends StatelessWidget {
-  const _RallyTabBar({Key key, this.tabs, this.tabController})
+  const _RallyTabBar({Key? key, this.tabs, this.tabController})
       : super(key: key);
 
   final List<Widget> tabs;

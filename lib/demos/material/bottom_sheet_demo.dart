@@ -11,8 +11,8 @@ import 'package:gallery/demos/material/material_demo_types.dart';
 
 class BottomSheetDemo extends StatelessWidget {
   const BottomSheetDemo({
-    Key key,
-    @required this.type,
+    Key? key,
+    required this.type,
   }) : super(key: key);
 
   final BottomSheetDemoType type;

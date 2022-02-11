@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN cupertinoNavigationBarDemo
 
 class CupertinoNavigationBarDemo extends StatelessWidget {
-  const CupertinoNavigationBarDemo({Key key}) : super(key: key);
+  const CupertinoNavigationBarDemo({Key? key}) : super(key: key);
 
   static const String homeRoute = '/home';
   static const String secondPageRoute = '/home/item';
@@ -97,7 +97,7 @@ class _SecondPage extends StatelessWidget {
 /// A CupertinoPageRoute without any transition animations.
 class _NoAnimationCupertinoPageRoute<T> extends CupertinoPageRoute<T> {
   _NoAnimationCupertinoPageRoute({
-    @required WidgetBuilder builder,
+    required WidgetBuilder builder,
     RouteSettings settings,
     String title,
   }) : super(

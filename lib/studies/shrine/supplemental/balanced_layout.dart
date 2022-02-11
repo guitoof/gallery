@@ -22,8 +22,8 @@ const _deviationImprovementThreshold = 10;
 /// Height of a product image, paired with the product's id.
 class _TaggedHeightData {
   const _TaggedHeightData({
-    @required this.index,
-    @required this.height,
+    required this.index,
+    required this.height,
   });
 
   /// The id of the corresponding product.
@@ -44,10 +44,10 @@ List<_TaggedHeightData> toListAndAddEmpty(Set<_TaggedHeightData> set) {
 
 /// Encode parameters for caching.
 String _encodeParameters({
-  @required int columnCount,
-  @required List<Product> products,
-  @required double largeImageWidth,
-  @required double smallImageWidth,
+  required int columnCount,
+  required List<Product> products,
+  required double largeImageWidth,
+  required double smallImageWidth,
 }) {
   final productString =
       [for (final product in products) product.id.toString()].join(',');
@@ -56,8 +56,8 @@ String _encodeParameters({
 
 /// Given a layout, replace integers by their corresponding products.
 List<List<Product>> _generateLayout({
-  @required List<Product> products,
-  @required List<List<int>> layout,
+  required List<Product> products,
+  required List<List<int>> layout,
 }) {
   return [
     for (final column in layout)

@@ -15,13 +15,13 @@ const _iconAssetLocation = 'reply/icons';
 
 class MailPreviewCard extends StatelessWidget {
   const MailPreviewCard({
-    Key key,
-    @required this.id,
-    @required this.email,
-    @required this.onDelete,
-    @required this.onStar,
-    @required this.isStarred,
-    @required this.onStarredMailbox,
+    Key? key,
+    required this.id,
+    required this.email,
+    required this.onDelete,
+    required this.onStar,
+    required this.isStarred,
+    required this.onStarredMailbox,
   })  : assert(id != null),
         assert(email != null),
         super(key: key);
@@ -120,11 +120,11 @@ class MailPreviewCard extends StatelessWidget {
 
 class _DismissibleContainer extends StatelessWidget {
   const _DismissibleContainer({
-    @required this.icon,
-    @required this.backgroundColor,
-    @required this.iconColor,
-    @required this.alignment,
-    @required this.padding,
+    required this.icon,
+    required this.backgroundColor,
+    required this.iconColor,
+    required this.alignment,
+    required this.padding,
   })  : assert(icon != null),
         assert(backgroundColor != null),
         assert(iconColor != null),
@@ -162,9 +162,9 @@ class _DismissibleContainer extends StatelessWidget {
 
 class _MailPreview extends StatelessWidget {
   const _MailPreview({
-    @required this.id,
-    @required this.email,
-    @required this.onTap,
+    required this.id,
+    required this.email,
+    required this.onTap,
     this.onStar,
     this.onDelete,
   })  : assert(id != null),
@@ -289,7 +289,7 @@ class _PicturePreview extends StatelessWidget {
 
 class _MailPreviewActionBar extends StatelessWidget {
   const _MailPreviewActionBar({
-    @required this.avatar,
+    required this.avatar,
     this.isStarred,
     this.onStar,
     this.onDelete,

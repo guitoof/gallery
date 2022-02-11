@@ -10,7 +10,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN bottomAppBarDemo
 
 class BottomAppBarDemo extends StatefulWidget {
-  const BottomAppBarDemo({Key key}) : super(key: key);
+  const BottomAppBarDemo({Key? key}) : super(key: key);
 
   @override
   State createState() => _BottomAppBarDemoState();
