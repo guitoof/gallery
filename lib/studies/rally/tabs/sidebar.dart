@@ -12,8 +12,8 @@ class TabWithSidebar extends StatelessWidget {
   const TabWithSidebar({
     Key key,
     this.restorationId,
-    @required this.mainView,
-    @required this.sidebarItems,
+    required this.mainView,
+    required this.sidebarItems,
   }) : super(key: key);
 
   final Widget mainView;

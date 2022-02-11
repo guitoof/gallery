@@ -276,7 +276,7 @@ class _PasswordInput extends StatelessWidget {
 
 class _ThumbButton extends StatefulWidget {
   const _ThumbButton({
-    @required this.onTap,
+    required this.onTap,
   });
 
   final VoidCallback onTap;
@@ -345,7 +345,7 @@ class _ThumbButtonState extends State<_ThumbButton> {
 class _LoginButton extends StatelessWidget {
   const _LoginButton({
     Key key,
-    @required this.onTap,
+    required this.onTap,
     this.maxWidth,
   }) : super(key: key);
 
@@ -378,7 +378,7 @@ class _LoginButton extends StatelessWidget {
 }
 
 class _BorderButton extends StatelessWidget {
-  const _BorderButton({Key key, @required this.text}) : super(key: key);
+  const _BorderButton({Key key, required this.text}) : super(key: key);
 
   final String text;
 
@@ -402,7 +402,7 @@ class _BorderButton extends StatelessWidget {
 }
 
 class _FilledButton extends StatelessWidget {
-  const _FilledButton({Key key, @required this.text, @required this.onTap})
+  const _FilledButton({Key key, required this.text, required this.onTap})
       : super(key: key);
 
   final String text;

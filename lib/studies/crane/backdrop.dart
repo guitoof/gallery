@@ -140,10 +140,10 @@ class Backdrop extends StatefulWidget {
 
   const Backdrop({
     Key key,
-    @required this.frontLayer,
-    @required this.backLayerItems,
-    @required this.frontTitle,
-    @required this.backTitle,
+    required this.frontLayer,
+    required this.backLayerItems,
+    required this.frontTitle,
+    required this.backTitle,
   })  : assert(frontLayer != null),
         assert(backLayerItems != null),
         assert(frontTitle != null),

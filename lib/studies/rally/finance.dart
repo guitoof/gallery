@@ -84,13 +84,13 @@ class FinancialEntityView extends StatelessWidget {
 class FinancialEntityCategoryView extends StatelessWidget {
   const FinancialEntityCategoryView({
     Key key,
-    @required this.indicatorColor,
-    @required this.indicatorFraction,
-    @required this.title,
-    @required this.subtitle,
-    @required this.semanticsLabel,
-    @required this.amount,
-    @required this.suffix,
+    required this.indicatorColor,
+    required this.indicatorFraction,
+    required this.title,
+    required this.subtitle,
+    required this.semanticsLabel,
+    required this.amount,
+    required this.suffix,
   }) : super(key: key);
 
   final Color indicatorColor;
@@ -370,9 +370,9 @@ class FinancialEntityCategoryDetailsPage extends StatelessWidget {
 
 class _DetailedEventCard extends StatelessWidget {
   const _DetailedEventCard({
-    @required this.title,
-    @required this.date,
-    @required this.amount,
+    required this.title,
+    required this.date,
+    required this.amount,
   });
 
   final String title;
@@ -438,7 +438,7 @@ class _DetailedEventCard extends StatelessWidget {
 }
 
 class _EventAmount extends StatelessWidget {
-  const _EventAmount({Key key, @required this.amount}) : super(key: key);
+  const _EventAmount({Key key, required this.amount}) : super(key: key);
 
   final double amount;
 
@@ -456,7 +456,7 @@ class _EventAmount extends StatelessWidget {
 }
 
 class _EventDate extends StatelessWidget {
-  const _EventDate({Key key, @required this.date}) : super(key: key);
+  const _EventDate({Key key, required this.date}) : super(key: key);
 
   final DateTime date;
 
@@ -472,7 +472,7 @@ class _EventDate extends StatelessWidget {
 }
 
 class _EventTitle extends StatelessWidget {
-  const _EventTitle({Key key, @required this.title}) : super(key: key);
+  const _EventTitle({Key key, required this.title}) : super(key: key);
 
   final String title;
 

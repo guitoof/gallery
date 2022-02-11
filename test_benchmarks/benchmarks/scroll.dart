@@ -24,7 +24,7 @@ Size _windowSize(BuildContext context) => MediaQuery.of(context).size;
 
 Rect _windowRect(BuildContext context) => Offset.zero & _windowSize(context);
 
-bool _isSuperset({@required Rect large, @required Rect small}) =>
+bool _isSuperset({required Rect large, required Rect small}) =>
     large.top <= small.top &&
     large.left <= small.left &&
     large.bottom >= small.bottom &&
@@ -35,9 +35,9 @@ const _minFreeRoomRequirement = 5.0;
 /// Whether [small] is a subset of [large] and has sufficient room
 /// inside [large], at the end of [large] specified by [axisDirection].
 bool _hasSufficientFreeRoom({
-  @required Rect large,
-  @required Rect small,
-  @required AxisDirection axisDirection,
+  required Rect large,
+  required Rect small,
+  required AxisDirection axisDirection,
 }) {
   if (!_isSuperset(large: large, small: small)) {
     return false;
@@ -79,7 +79,7 @@ Future<void> animationStops() async {
 }
 
 Future<void> scrollUntilVisible({
-  @required Element element,
+  required Element element,
   bool strict = false,
   bool animated = true,
 }) async {
@@ -134,7 +134,7 @@ Future<void> scrollUntilVisible({
 }
 
 Future<void> scrollToExtreme({
-  @required ScrollableState scrollable,
+  required ScrollableState scrollable,
   bool toEnd = false,
   bool animated = true,
 }) async {
@@ -150,8 +150,8 @@ Future<void> scrollToExtreme({
 }
 
 Future<void> scrollToPosition({
-  @required ScrollableState scrollable,
-  @required double pixels,
+  required ScrollableState scrollable,
+  required double pixels,
   bool animated = true,
 }) async {
   if (animated) {

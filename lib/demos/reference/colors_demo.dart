@@ -14,8 +14,8 @@ const double kColorItemHeight = 48;
 
 class _Palette {
   _Palette({
-    @required this.name,
-    @required this.primary,
+    required this.name,
+    required this.primary,
     this.accent,
     this.threshold = 900,
   })  : assert(name != null),
@@ -146,8 +146,8 @@ List<_Palette> _allPalettes(BuildContext context) {
 class _ColorItem extends StatelessWidget {
   const _ColorItem({
     Key key,
-    @required this.index,
-    @required this.color,
+    required this.index,
+    required this.color,
     this.prefix = '',
   })  : assert(index != null),
         assert(color != null),
@@ -185,7 +185,7 @@ class _ColorItem extends StatelessWidget {
 class PaletteTabView extends StatelessWidget {
   const PaletteTabView({
     Key key,
-    @required this.colors,
+    required this.colors,
   })  : assert(colors != null),
         super(key: key);
 

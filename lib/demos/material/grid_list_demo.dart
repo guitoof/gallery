@@ -136,8 +136,8 @@ class _GridTitleText extends StatelessWidget {
 class _GridDemoPhotoItem extends StatelessWidget {
   const _GridDemoPhotoItem({
     Key key,
-    @required this.photo,
-    @required this.tileStyle,
+    required this.photo,
+    required this.tileStyle,
   }) : super(key: key);
 
   final _Photo photo;

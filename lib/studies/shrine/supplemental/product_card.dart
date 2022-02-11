@@ -43,7 +43,7 @@ class MobileProductCard extends StatelessWidget {
 
 class DesktopProductCard extends StatelessWidget {
   const DesktopProductCard(
-      {Key key, @required this.product, @required this.imageWidth})
+      {Key key, required this.product, required this.imageWidth})
       : super(key: key);
 
   final Product product;

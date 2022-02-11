@@ -14,8 +14,8 @@ import 'package:gallery/demos/material/material_demo_types.dart';
 class BottomNavigationDemo extends StatefulWidget {
   const BottomNavigationDemo({
     Key key,
-    @required this.restorationId,
-    @required this.type,
+    required this.restorationId,
+    required this.type,
   }) : super(key: key);
 
   final String restorationId;

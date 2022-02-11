@@ -80,12 +80,12 @@ class SlowMotionSetting extends StatelessWidget {
 class SettingsListItem<T> extends StatefulWidget {
   const SettingsListItem({
     Key key,
-    @required this.optionsMap,
-    @required this.title,
-    @required this.selectedOption,
-    @required this.onOptionChanged,
-    @required this.onTapSetting,
-    @required this.isExpanded,
+    required this.optionsMap,
+    required this.title,
+    required this.selectedOption,
+    required this.onOptionChanged,
+    required this.onTapSetting,
+    required this.isExpanded,
   }) : super(key: key);
 
   final LinkedHashMap<T, DisplayOption> optionsMap;

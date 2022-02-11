@@ -13,7 +13,7 @@ import 'package:gallery/demos/material/material_demo_types.dart';
 // BEGIN dialogDemo
 
 class DialogDemo extends StatefulWidget {
-  const DialogDemo({Key key, @required this.type}) : super(key: key);
+  const DialogDemo({Key key, required this.type}) : super(key: key);
 
   final DialogDemoType type;
 
@@ -239,7 +239,7 @@ class _DialogDemoState extends State<DialogDemo> with RestorationMixin {
 /// A MaterialPageRoute without any transition animations.
 class _NoAnimationMaterialPageRoute<T> extends MaterialPageRoute<T> {
   _NoAnimationMaterialPageRoute({
-    @required WidgetBuilder builder,
+    required WidgetBuilder builder,
     RouteSettings settings,
     bool maintainState = true,
     bool fullscreenDialog = false,

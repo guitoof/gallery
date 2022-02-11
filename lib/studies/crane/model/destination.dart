@@ -12,10 +12,10 @@ import 'package:gallery/studies/crane/model/formatters.dart';
 
 abstract class Destination {
   const Destination({
-    @required this.id,
-    @required this.destination,
-    @required this.assetSemanticLabel,
-    @required this.imageAspectRatio,
+    required this.id,
+    required this.destination,
+    required this.assetSemanticLabel,
+    required this.imageAspectRatio,
   })  : assert(id != null),
         assert(destination != null);
 
@@ -35,10 +35,10 @@ abstract class Destination {
 
 class FlyDestination extends Destination {
   const FlyDestination({
-    @required int id,
-    @required String destination,
-    @required String assetSemanticLabel,
-    @required this.stops,
+    required int id,
+    required String destination,
+    required String assetSemanticLabel,
+    required this.stops,
     double imageAspectRatio = 1,
     this.duration,
   })  : assert(stops != null),
@@ -88,10 +88,10 @@ class FlyDestination extends Destination {
 
 class SleepDestination extends Destination {
   const SleepDestination({
-    @required int id,
-    @required String destination,
-    @required String assetSemanticLabel,
-    @required this.total,
+    required int id,
+    required String destination,
+    required String assetSemanticLabel,
+    required this.total,
     double imageAspectRatio = 1,
   })  : assert(total != null),
         assert(destination != null),
@@ -115,10 +115,10 @@ class SleepDestination extends Destination {
 
 class EatDestination extends Destination {
   const EatDestination({
-    @required int id,
-    @required String destination,
-    @required String assetSemanticLabel,
-    @required this.total,
+    required int id,
+    required String destination,
+    required String assetSemanticLabel,
+    required this.total,
     double imageAspectRatio = 1,
   })  : assert(total != null),
         assert(destination != null),

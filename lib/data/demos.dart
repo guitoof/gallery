@@ -63,9 +63,9 @@ extension GalleryDemoExtension on GalleryDemoCategory {
 
 class GalleryDemo {
   const GalleryDemo({
-    @required this.title,
-    @required this.category,
-    @required this.subtitle,
+    required this.title,
+    required this.category,
+    required this.subtitle,
     // This parameter is required for studies.
     this.studyId,
     // Parameters below are required for non-study demos.

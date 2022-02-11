@@ -13,9 +13,9 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 class _TextStyleItem extends StatelessWidget {
   const _TextStyleItem({
     Key key,
-    @required this.name,
-    @required this.style,
-    @required this.text,
+    required this.name,
+    required this.style,
+    required this.text,
   })  : assert(name != null),
         assert(style != null),
         assert(text != null),

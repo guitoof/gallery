@@ -71,7 +71,7 @@ class ComposePage extends StatelessWidget {
 }
 
 class _SubjectRow extends StatefulWidget {
-  const _SubjectRow({@required this.subject}) : assert(subject != null);
+  const _SubjectRow({required this.subject}) : assert(subject != null);
 
   final String subject;
   @override
@@ -145,7 +145,7 @@ class _SubjectRowState extends State<_SubjectRow> {
 }
 
 class _SenderAddressRow extends StatefulWidget {
-  const _SenderAddressRow({@required this.senderEmail})
+  const _SenderAddressRow({required this.senderEmail})
       : assert(senderEmail != null);
 
   final String senderEmail;
@@ -224,8 +224,8 @@ class __SenderAddressRowState extends State<_SenderAddressRow> {
 
 class _RecipientsRow extends StatelessWidget {
   const _RecipientsRow({
-    @required this.recipients,
-    @required this.avatar,
+    required this.recipients,
+    required this.avatar,
   })  : assert(recipients != null),
         assert(avatar != null);
 

@@ -247,8 +247,8 @@ class ShoppingCartSummary extends StatelessWidget {
 class ShoppingCartRow extends StatelessWidget {
   const ShoppingCartRow({
     Key key,
-    @required this.product,
-    @required this.quantity,
+    required this.product,
+    required this.quantity,
     this.onPressed,
   }) : super(key: key);
 

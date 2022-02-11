@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 
 class CodeStyle extends InheritedWidget {
   const CodeStyle({
-    Key key,
+    Key? key,
     this.baseStyle,
     this.numberStyle,
     this.commentStyle,
@@ -17,7 +17,7 @@ class CodeStyle extends InheritedWidget {
     this.punctuationStyle,
     this.classStyle,
     this.constantStyle,
-    @required Widget child,
+    required Widget child,
   }) : super(key: key, child: child);
 
   final TextStyle baseStyle;

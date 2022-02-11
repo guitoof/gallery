@@ -68,8 +68,8 @@ class CupertinoTabBarDemo extends StatelessWidget {
 class _CupertinoDemoTab extends StatelessWidget {
   const _CupertinoDemoTab({
     Key key,
-    @required this.title,
-    @required this.icon,
+    required this.title,
+    required this.icon,
   }) : super(key: key);
 
   final String title;

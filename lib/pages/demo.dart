@@ -38,7 +38,7 @@ enum _DemoState {
 class DemoPage extends StatefulWidget {
   const DemoPage({
     Key key,
-    @required this.slug,
+    required this.slug,
   }) : super(key: key);
 
   static const String baseRoute = '/demo';
@@ -78,8 +78,8 @@ class _DemoPageState extends State<DemoPage> {
 class GalleryDemoPage extends StatefulWidget {
   const GalleryDemoPage({
     Key key,
-    @required this.restorationId,
-    @required this.demo,
+    required this.restorationId,
+    required this.demo,
   }) : super(key: key);
 
   final String restorationId;
@@ -709,8 +709,8 @@ class _DemoSectionInfo extends StatelessWidget {
 class DemoWrapper extends StatelessWidget {
   const DemoWrapper({
     Key key,
-    @required this.height,
-    @required this.buildRoute,
+    required this.height,
+    required this.buildRoute,
   }) : super(key: key);
 
   final double height;

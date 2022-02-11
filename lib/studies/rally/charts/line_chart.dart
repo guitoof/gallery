@@ -42,13 +42,13 @@ class RallyLineChart extends StatelessWidget {
 
 class RallyLineChartPainter extends CustomPainter {
   RallyLineChartPainter({
-    @required this.dateFormat,
-    @required this.numberFormat,
-    @required this.events,
-    @required this.labelStyle,
-    @required this.textDirection,
-    @required this.textScaleFactor,
-    @required this.padding,
+    required this.dateFormat,
+    required this.numberFormat,
+    required this.events,
+    required this.labelStyle,
+    required this.textDirection,
+    required this.textScaleFactor,
+    required this.padding,
   });
 
   // The style for the labels.

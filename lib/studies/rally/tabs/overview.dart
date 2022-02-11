@@ -83,7 +83,7 @@ class _OverviewViewState extends State<OverviewView> {
 }
 
 class _OverviewGrid extends StatelessWidget {
-  const _OverviewGrid({Key key, @required this.spacing}) : super(key: key);
+  const _OverviewGrid({Key key, required this.spacing}) : super(key: key);
 
   final double spacing;
 
@@ -196,7 +196,7 @@ class _AlertsView extends StatelessWidget {
 class _Alert extends StatelessWidget {
   const _Alert({
     Key key,
-    @required this.alert,
+    required this.alert,
   }) : super(key: key);
 
   final AlertData alert;

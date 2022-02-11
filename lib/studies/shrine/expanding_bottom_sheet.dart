@@ -51,8 +51,8 @@ double _paddedThumbnailHeight(BuildContext context) {
 class ExpandingBottomSheet extends StatefulWidget {
   const ExpandingBottomSheet({
     Key key,
-    @required this.hideController,
-    @required this.expandingController,
+    required this.hideController,
+    required this.expandingController,
   })  : assert(hideController != null),
         assert(expandingController != null),
         super(key: key);
@@ -83,11 +83,11 @@ class ExpandingBottomSheet extends StatefulWidget {
 // curve formula. It's quintic, not cubic. But it _can_ be expressed as one
 // curve followed by another, which we do here.
 Animation<T> _getEmphasizedEasingAnimation<T>({
-  @required T begin,
-  @required T peak,
-  @required T end,
-  @required bool isForward,
-  @required Animation<double> parent,
+  required T begin,
+  required T peak,
+  required T end,
+  required bool isForward,
+  required Animation<double> parent,
 }) {
   Curve firstCurve;
   Curve secondCurve;
@@ -775,8 +775,8 @@ class ProductThumbnail extends StatelessWidget {
 // _ListModel manipulates an internal list and an AnimatedList
 class _ListModel {
   _ListModel({
-    @required this.listKey,
-    @required this.removedItemBuilder,
+    required this.listKey,
+    required this.removedItemBuilder,
     Iterable<int> initialItems,
   })  : assert(listKey != null),
         assert(removedItemBuilder != null),

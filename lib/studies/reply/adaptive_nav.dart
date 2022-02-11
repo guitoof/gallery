@@ -261,7 +261,7 @@ class _DesktopNavState extends State<_DesktopNav>
 
 class _NavigationRailHeader extends StatelessWidget {
   const _NavigationRailHeader({
-    @required this.extended,
+    required this.extended,
   }) : assert(extended != null);
 
   final ValueNotifier<bool> extended;
@@ -358,7 +358,7 @@ class _NavigationRailHeader extends StatelessWidget {
 }
 
 class _NavigationRailFolderSection extends StatelessWidget {
-  const _NavigationRailFolderSection({@required this.folders})
+  const _NavigationRailFolderSection({required this.folders})
       : assert(folders != null);
 
   final Map<String, String> folders;
@@ -823,7 +823,7 @@ class _AnimatedBottomAppBar extends StatelessWidget {
 }
 
 class _BottomAppBarActionItems extends StatelessWidget {
-  const _BottomAppBarActionItems({@required this.drawerVisible})
+  const _BottomAppBarActionItems({required this.drawerVisible})
       : assert(drawerVisible != null);
 
   final bool drawerVisible;
@@ -928,11 +928,11 @@ class _BottomAppBarActionItems extends StatelessWidget {
 
 class _BottomDrawerDestinations extends StatelessWidget {
   const _BottomDrawerDestinations({
-    @required this.destinations,
-    @required this.drawerController,
-    @required this.dropArrowController,
-    @required this.selectedMailbox,
-    @required this.onItemTapped,
+    required this.destinations,
+    required this.drawerController,
+    required this.dropArrowController,
+    required this.selectedMailbox,
+    required this.onItemTapped,
   })  : assert(destinations != null),
         assert(drawerController != null),
         assert(dropArrowController != null),
@@ -1002,9 +1002,9 @@ class _BottomDrawerDestinations extends StatelessWidget {
 
 class _Destination {
   const _Destination({
-    @required this.type,
-    @required this.textLabel,
-    @required this.icon,
+    required this.type,
+    required this.textLabel,
+    required this.icon,
   })  : assert(type != null),
         assert(textLabel != null),
         assert(icon != null);
@@ -1018,7 +1018,7 @@ class _Destination {
 }
 
 class _BottomDrawerFolderSection extends StatelessWidget {
-  const _BottomDrawerFolderSection({@required this.folders})
+  const _BottomDrawerFolderSection({required this.folders})
       : assert(folders != null);
 
   final Map<String, String> folders;
@@ -1056,7 +1056,7 @@ class _BottomDrawerFolderSection extends StatelessWidget {
 }
 
 class _MailNavigator extends StatefulWidget {
-  const _MailNavigator({@required this.child}) : assert(child != null);
+  const _MailNavigator({required this.child}) : assert(child != null);
 
   final Widget child;
 
@@ -1254,8 +1254,8 @@ class _ReplyFabState extends State<_ReplyFab>
 
 class _FadeThroughTransitionSwitcher extends StatelessWidget {
   const _FadeThroughTransitionSwitcher({
-    @required this.fillColor,
-    @required this.child,
+    required this.fillColor,
+    required this.child,
   })  : assert(fillColor != null),
         assert(child != null);
 
@@ -1280,7 +1280,7 @@ class _FadeThroughTransitionSwitcher extends StatelessWidget {
 
 class _SharedAxisTransitionSwitcher extends StatelessWidget {
   const _SharedAxisTransitionSwitcher({
-    @required this.defaultChild,
+    required this.defaultChild,
   }) : assert(defaultChild != null);
 
   final Widget defaultChild;

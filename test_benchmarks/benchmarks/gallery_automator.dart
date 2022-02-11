@@ -42,10 +42,10 @@ DemoType typeOfDemo(String demo) {
 /// A class that automates the gallery.
 class GalleryAutomator {
   GalleryAutomator({
-    @required this.benchmarkName,
+    required this.benchmarkName,
     this.shouldRunPredicate,
     this.testScrollsOnly = false,
-    @required this.stopWarmingUpCallback,
+    required this.stopWarmingUpCallback,
   }) : assert(testScrollsOnly || shouldRunPredicate != null);
 
   /// The name of the current benchmark.

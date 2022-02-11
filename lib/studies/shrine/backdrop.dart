@@ -72,8 +72,8 @@ class _BackdropTitle extends AnimatedWidget {
     Key key,
     Animation<double> listenable,
     this.onPress,
-    @required this.frontTitle,
-    @required this.backTitle,
+    required this.frontTitle,
+    required this.backTitle,
   })  : assert(frontTitle != null),
         assert(backTitle != null),
         super(key: key, listenable: listenable);
@@ -188,11 +188,11 @@ class _BackdropTitle extends AnimatedWidget {
 class Backdrop extends StatefulWidget {
   const Backdrop({
     Key key,
-    @required this.frontLayer,
-    @required this.backLayer,
-    @required this.frontTitle,
-    @required this.backTitle,
-    @required this.controller,
+    required this.frontLayer,
+    required this.backLayer,
+    required this.frontTitle,
+    required this.backTitle,
+    required this.controller,
   }) : super(key: key);
 
   final Widget frontLayer;
@@ -373,8 +373,8 @@ class _BackdropState extends State<Backdrop>
 class DesktopBackdrop extends StatelessWidget {
   const DesktopBackdrop({
     Key key,
-    @required this.frontLayer,
-    @required this.backLayer,
+    required this.frontLayer,
+    required this.backLayer,
   }) : super(key: key);
 
   final Widget frontLayer;

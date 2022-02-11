@@ -312,9 +312,9 @@ class Header extends StatelessWidget {
 class _AnimatedHomePage extends StatefulWidget {
   const _AnimatedHomePage({
     Key key,
-    @required this.restorationId,
-    @required this.carouselCards,
-    @required this.isSplashPageAnimationFinished,
+    required this.restorationId,
+    required this.carouselCards,
+    required this.isSplashPageAnimationFinished,
   }) : super(key: key);
 
   final String restorationId;
@@ -588,8 +588,8 @@ class _AnimatedCategoryItem extends StatelessWidget {
   _AnimatedCategoryItem({
     Key key,
     double startDelayFraction,
-    @required this.controller,
-    @required this.child,
+    required this.controller,
+    required this.child,
   })  : topPaddingAnimation = Tween(
           begin: 60.0,
           end: 0.0,
@@ -628,8 +628,8 @@ class _AnimatedCategoryItem extends StatelessWidget {
 class _AnimatedCarousel extends StatelessWidget {
   _AnimatedCarousel({
     Key key,
-    @required this.child,
-    @required this.controller,
+    required this.child,
+    required this.controller,
   })  : startPositionAnimation = Tween(
           begin: 1.0,
           end: 0.0,
@@ -679,8 +679,8 @@ class _AnimatedCarousel extends StatelessWidget {
 class _AnimatedCarouselCard extends StatelessWidget {
   _AnimatedCarouselCard({
     Key key,
-    @required this.child,
-    @required this.controller,
+    required this.child,
+    required this.controller,
   })  : startPaddingAnimation = Tween(
           begin: _horizontalPadding,
           end: 0.0,

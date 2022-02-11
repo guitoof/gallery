@@ -304,13 +304,13 @@ class _CustomRangeThumbShape extends RangeSliderThumbShape {
   void paint(
     PaintingContext context,
     Offset center, {
-    @required Animation<double> activationAnimation,
-    @required Animation<double> enableAnimation,
+    required Animation<double> activationAnimation,
+    required Animation<double> enableAnimation,
     bool isDiscrete = false,
     bool isEnabled = false,
     bool isOnTop,
     TextDirection textDirection,
-    @required SliderThemeData sliderTheme,
+    required SliderThemeData sliderTheme,
     Thumb thumb,
     bool isPressed,
   }) {

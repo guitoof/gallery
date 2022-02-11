@@ -225,10 +225,10 @@ class DesktopAsymmetricView extends StatelessWidget {
 class DesktopColumns extends StatelessWidget {
   const DesktopColumns({
     Key key,
-    @required this.columnCount,
-    @required this.products,
-    @required this.largeImageWidth,
-    @required this.smallImageWidth,
+    required this.columnCount,
+    required this.products,
+    required this.largeImageWidth,
+    required this.smallImageWidth,
   }) : super(key: key);
 
   final int columnCount;

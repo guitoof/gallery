@@ -15,7 +15,7 @@ import 'package:gallery/demos/cupertino/demo_types.dart';
 class CupertinoAlertDemo extends StatefulWidget {
   const CupertinoAlertDemo({
     Key key,
-    @required this.type,
+    required this.type,
   }) : super(key: key);
 
   final AlertDemoType type;

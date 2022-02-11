@@ -12,7 +12,7 @@ import 'gallery_automator.dart';
 /// A recorder that measures frame building durations for the Gallery.
 class GalleryRecorder extends WidgetRecorder {
   GalleryRecorder({
-    @required this.benchmarkName,
+    required this.benchmarkName,
     this.shouldRunPredicate,
     this.testScrollingOnly = false,
   })  : assert(testScrollingOnly || shouldRunPredicate != null),

@@ -9,7 +9,7 @@ import 'package:flutter/material.dart';
 abstract class BackLayerItem extends StatefulWidget {
   final int index;
 
-  const BackLayerItem({Key key, @required this.index}) : super(key: key);
+  const BackLayerItem({Key key, required this.index}) : super(key: key);
 }
 
 class BackLayer extends StatefulWidget {

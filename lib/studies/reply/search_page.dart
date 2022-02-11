@@ -87,7 +87,7 @@ class SearchPage extends StatelessWidget {
 
 class _SectionHeader extends StatelessWidget {
   const _SectionHeader({
-    @required this.title,
+    required this.title,
   }) : assert(title != null);
   final String title;
 
@@ -110,8 +110,8 @@ class _SectionHeader extends StatelessWidget {
 class _SearchHistoryTile extends StatelessWidget {
   const _SearchHistoryTile({
     this.icon = Icons.access_time,
-    @required this.search,
-    @required this.address,
+    required this.search,
+    required this.address,
   })  : assert(search != null),
         assert(address != null);
 
