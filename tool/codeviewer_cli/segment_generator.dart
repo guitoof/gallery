@@ -180,15 +180,18 @@ Map<String, String> _createSegments(String sourceDirectoryPath) {
 
     if (!segments.containsKey(name)) {
       segments[name] = [];
+    } else {
+      segments[name]!.add(
+        TaggedString(
+          text: value.toString(),
+          order: order,
+        ),
+      );
     }
-    segments[name].add(
-      TaggedString(
-        text: value.toString(),
-        order: order,
-      ),
-    );
 
-    segmentPrologues[name] = subsegmentPrologues[key];
+    if (subsegmentPrologues[key] != null) {
+      segmentPrologues[name] = subsegmentPrologues[key]!;
+    }
   });
 
   segments.forEach((key, value) {
@@ -200,10 +203,14 @@ Map<String, String> _createSegments(String sourceDirectoryPath) {
   for (final name in segments.keys) {
     final buffer = StringBuffer();
 
-    buffer.write(segmentPrologues[name].trim());
-    buffer.write('\n\n');
+    if (segmentPrologues[name] != null) {
+      buffer.write(segmentPrologues[name]!.trim());
+      buffer.write('\n\n');
+    }
 
-    for (final ts in segments[name]) {
+    /// Because [name] is an element of [segments.keys()]
+    /// We are confident that segments[name] is well defined
+    for (final ts in segments[name]!) {
       buffer.write(ts.text.trim());
       buffer.write('\n\n');
     }
@@ -219,7 +226,7 @@ Map<String, String> _createSegments(String sourceDirectoryPath) {
 /// The [order] of each subsegment is tagged with the code in order to be
 /// sorted in the desired order.
 class TaggedString {
-  TaggedString({this.text, this.order});
+  TaggedString({required this.text, required this.order});
 
   final String text;
   final double order;
@@ -230,7 +237,10 @@ void _combineSegments(Map<String, String> segments, StringBuffer output) {
 
   final sortedNames = segments.keys.toList()..sort();
   for (final name in sortedNames) {
-    final code = segments[name];
+    /// Since sortedNames is a sorted version of segments.keys.
+    /// We can be sure that segments[name] is indeed defined
+    /// We can therefore confidently force it to be non nullable
+    final code = segments[name]!;
 
     output.writeln('  static TextSpan $name (BuildContext context) {');
     output.writeln('    final codeStyle = CodeStyle.of(context);');
