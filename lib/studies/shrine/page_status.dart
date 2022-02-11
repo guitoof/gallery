@@ -10,7 +10,7 @@ import 'package:gallery/layout/adaptive.dart';
 
 class PageStatus extends InheritedWidget {
   const PageStatus({
-    Key key,
+    Key? key,
     required this.cartController,
     required this.menuController,
     required Widget child,

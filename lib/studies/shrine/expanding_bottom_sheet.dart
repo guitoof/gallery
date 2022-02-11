@@ -50,7 +50,7 @@ double _paddedThumbnailHeight(BuildContext context) {
 
 class ExpandingBottomSheet extends StatefulWidget {
   const ExpandingBottomSheet({
-    Key key,
+    Key? key,
     required this.hideController,
     required this.expandingController,
   })  : assert(hideController != null),
@@ -574,7 +574,7 @@ class _ExpandingBottomSheetState extends State<ExpandingBottomSheet> {
 }
 
 class ProductThumbnailRow extends StatefulWidget {
-  const ProductThumbnailRow({Key key}) : super(key: key);
+  const ProductThumbnailRow({Key? key}) : super(key: key);
 
   @override
   _ProductThumbnailRowState createState() => _ProductThumbnailRowState();
@@ -691,7 +691,7 @@ class _ProductThumbnailRowState extends State<ProductThumbnailRow> {
 }
 
 class ExtraProductsNumber extends StatelessWidget {
-  const ExtraProductsNumber({Key key}) : super(key: key);
+  const ExtraProductsNumber({Key? key}) : super(key: key);
 
   // Calculates the number to be displayed at the end of the row if there are
   // more than three products in the cart. This calculates overflow products,
@@ -735,7 +735,7 @@ class ExtraProductsNumber extends StatelessWidget {
 
 class ProductThumbnail extends StatelessWidget {
   const ProductThumbnail(this.animation, this.opacityAnimation, this.product,
-      {Key key})
+      {Key? key})
       : super(key: key);
 
   final Animation<double> animation;

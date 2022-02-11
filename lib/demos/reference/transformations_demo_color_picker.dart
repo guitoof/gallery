@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 @immutable
 class ColorPicker extends StatelessWidget {
   const ColorPicker({
-    Key key,
+    Key? key,
     required this.colors,
     required this.selectedColor,
     this.onColorSelection,

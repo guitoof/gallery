@@ -15,7 +15,7 @@ const _iconAssetLocation = 'reply/icons';
 
 class MailPreviewCard extends StatelessWidget {
   const MailPreviewCard({
-    Key key,
+    Key? key,
     required this.id,
     required this.email,
     required this.onDelete,

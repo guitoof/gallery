@@ -13,7 +13,7 @@ import 'transformations_demo_edit_board_point.dart';
 // BEGIN transformationsDemo#1
 
 class TransformationsDemo extends StatefulWidget {
-  const TransformationsDemo({Key key}) : super(key: key);
+  const TransformationsDemo({Key? key}) : super(key: key);
 
   @override
   _TransformationsDemoState createState() => _TransformationsDemoState();

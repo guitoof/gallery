@@ -81,7 +81,7 @@ List<TravelDestination> destinations(BuildContext context) => [
     ];
 
 class TravelDestinationItem extends StatelessWidget {
-  const TravelDestinationItem({Key key, required this.destination, this.shape})
+  const TravelDestinationItem({Key? key, required this.destination, this.shape})
       : assert(destination != null),
         super(key: key);
 
@@ -120,7 +120,7 @@ class TravelDestinationItem extends StatelessWidget {
 
 class TappableTravelDestinationItem extends StatelessWidget {
   const TappableTravelDestinationItem(
-      {Key key, required this.destination, this.shape})
+      {Key? key, required this.destination, this.shape})
       : assert(destination != null),
         super(key: key);
 
@@ -166,7 +166,7 @@ class TappableTravelDestinationItem extends StatelessWidget {
 
 class SelectableTravelDestinationItem extends StatelessWidget {
   const SelectableTravelDestinationItem({
-    Key key,
+    Key? key,
     required this.destination,
     required this.isSelected,
     required this.onSelected,
@@ -245,7 +245,7 @@ class SelectableTravelDestinationItem extends StatelessWidget {
 
 class SectionTitle extends StatelessWidget {
   const SectionTitle({
-    Key key,
+    Key? key,
     this.title,
   }) : super(key: key);
 
@@ -264,7 +264,7 @@ class SectionTitle extends StatelessWidget {
 }
 
 class TravelDestinationContent extends StatelessWidget {
-  const TravelDestinationContent({Key key, required this.destination})
+  const TravelDestinationContent({Key? key, required this.destination})
       : assert(destination != null),
         super(key: key);
 
@@ -367,7 +367,7 @@ class TravelDestinationContent extends StatelessWidget {
 }
 
 class CardsDemo extends StatefulWidget {
-  const CardsDemo({Key key}) : super(key: key);
+  const CardsDemo({Key? key}) : super(key: key);
 
   @override
   _CardsDemoState createState() => _CardsDemoState();

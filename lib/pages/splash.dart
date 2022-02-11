@@ -16,7 +16,7 @@ const homePeekMobile = 60.0;
 
 class SplashPageAnimation extends InheritedWidget {
   const SplashPageAnimation({
-    Key key,
+    Key? key,
     required this.isFinished,
     required Widget child,
   })  : assert(child != null),
@@ -34,7 +34,7 @@ class SplashPageAnimation extends InheritedWidget {
 
 class SplashPage extends StatefulWidget {
   const SplashPage({
-    Key key,
+    Key? key,
     required this.child,
   }) : super(key: key);
 
@@ -174,7 +174,7 @@ class _SplashPageState extends State<SplashPage>
 
 class _SplashBackLayer extends StatelessWidget {
   const _SplashBackLayer({
-    Key key,
+    Key? key,
     required this.isSplashCollapsed,
     this.effect,
     this.onTap,

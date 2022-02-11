@@ -11,7 +11,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 import 'package:gallery/demos/material/material_demo_types.dart';
 
 class SlidersDemo extends StatelessWidget {
-  const SlidersDemo({Key key, this.type}) : super(key: key);
+  const SlidersDemo({Key? key, this.type}) : super(key: key);
 
   final SlidersDemoType type;
 

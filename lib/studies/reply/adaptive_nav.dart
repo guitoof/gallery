@@ -30,7 +30,7 @@ const double _kFlingVelocity = 2.0;
 const _kAnimationDuration = Duration(milliseconds: 300);
 
 class AdaptiveNav extends StatefulWidget {
-  const AdaptiveNav({Key key}) : super(key: key);
+  const AdaptiveNav({Key? key}) : super(key: key);
 
   @override
   _AdaptiveNavState createState() => _AdaptiveNavState();
@@ -141,7 +141,7 @@ class _AdaptiveNavState extends State<AdaptiveNav> {
 
 class _DesktopNav extends StatefulWidget {
   const _DesktopNav({
-    Key key,
+    Key? key,
     this.inboxKey,
     this.extended,
     this.destinations,
@@ -1099,7 +1099,7 @@ class _MailNavigatorState extends State<_MailNavigator> {
 }
 
 class _ReplyLogo extends StatelessWidget {
-  const _ReplyLogo({Key key}) : super(key: key);
+  const _ReplyLogo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

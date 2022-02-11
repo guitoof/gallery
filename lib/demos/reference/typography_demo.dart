@@ -12,7 +12,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 
 class _TextStyleItem extends StatelessWidget {
   const _TextStyleItem({
-    Key key,
+    Key? key,
     required this.name,
     required this.style,
     required this.text,
@@ -46,7 +46,7 @@ class _TextStyleItem extends StatelessWidget {
 }
 
 class TypographyDemo extends StatelessWidget {
-  const TypographyDemo({Key key}) : super(key: key);
+  const TypographyDemo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

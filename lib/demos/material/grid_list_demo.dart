@@ -11,7 +11,7 @@ import 'package:gallery/demos/material/material_demo_types.dart';
 // BEGIN gridListsDemo
 
 class GridListDemo extends StatelessWidget {
-  const GridListDemo({Key key, this.type}) : super(key: key);
+  const GridListDemo({Key? key, this.type}) : super(key: key);
 
   final GridListDemoType type;
 
@@ -135,7 +135,7 @@ class _GridTitleText extends StatelessWidget {
 
 class _GridDemoPhotoItem extends StatelessWidget {
   const _GridDemoPhotoItem({
-    Key key,
+    Key? key,
     required this.photo,
     required this.tileStyle,
   }) : super(key: key);

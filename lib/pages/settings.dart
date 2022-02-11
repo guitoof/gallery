@@ -27,7 +27,7 @@ enum _ExpandableSetting {
 }
 
 class SettingsPage extends StatefulWidget {
-  const SettingsPage({Key key, this.animationController}) : super(key: key);
+  const SettingsPage({Key? key, this.animationController}) : super(key: key);
 
   final AnimationController animationController;
 
@@ -305,7 +305,7 @@ class _SettingsPageState extends State<SettingsPage> {
 }
 
 class SettingsAbout extends StatelessWidget {
-  const SettingsAbout({Key key}) : super(key: key);
+  const SettingsAbout({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -320,7 +320,7 @@ class SettingsAbout extends StatelessWidget {
 }
 
 class SettingsFeedback extends StatelessWidget {
-  const SettingsFeedback({Key key}) : super(key: key);
+  const SettingsFeedback({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -341,7 +341,7 @@ class SettingsFeedback extends StatelessWidget {
 }
 
 class SettingsAttribution extends StatelessWidget {
-  const SettingsAttribution({Key key}) : super(key: key);
+  const SettingsAttribution({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -421,7 +421,7 @@ class _SettingsLink extends StatelessWidget {
 /// Animate the settings list items to stagger in from above.
 class _AnimateSettingsListItems extends StatelessWidget {
   const _AnimateSettingsListItems({
-    Key key,
+    Key? key,
     this.animation,
     this.children,
   }) : super(key: key);

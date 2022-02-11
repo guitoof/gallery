@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 class ProfileAvatar extends StatelessWidget {
   const ProfileAvatar({
-    Key key,
+    Key? key,
     required this.avatar,
     this.radius = 20,
   })  : assert(avatar != null),

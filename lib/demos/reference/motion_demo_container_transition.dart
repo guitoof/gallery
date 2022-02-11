@@ -44,7 +44,7 @@ const String _loremIpsumParagraph =
 const double _fabDimension = 56;
 
 class OpenContainerTransformDemo extends StatefulWidget {
-  const OpenContainerTransformDemo({Key key}) : super(key: key);
+  const OpenContainerTransformDemo({Key? key}) : super(key: key);
 
   @override
   _OpenContainerTransformDemoState createState() =>

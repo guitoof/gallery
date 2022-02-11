@@ -22,7 +22,7 @@ import 'package:gallery/studies/rally/formatters.dart';
 
 class FinancialEntityView extends StatelessWidget {
   const FinancialEntityView({
-    Key key,
+    Key? key,
     this.heroLabel,
     this.heroAmount,
     this.wholeAmount,
@@ -83,7 +83,7 @@ class FinancialEntityView extends StatelessWidget {
 /// A reusable widget to show balance information of a single entity as a card.
 class FinancialEntityCategoryView extends StatelessWidget {
   const FinancialEntityCategoryView({
-    Key key,
+    Key? key,
     required this.indicatorColor,
     required this.indicatorFraction,
     required this.title,
@@ -319,7 +319,7 @@ List<FinancialEntityCategoryView> buildBudgetDataListViews(
 }
 
 class FinancialEntityCategoryDetailsPage extends StatelessWidget {
-  FinancialEntityCategoryDetailsPage({Key key}) : super(key: key);
+  FinancialEntityCategoryDetailsPage({Key? key}) : super(key: key);
 
   final List<DetailedEventData> items =
       DummyDataService.getDetailedEventItems();
@@ -438,7 +438,7 @@ class _DetailedEventCard extends StatelessWidget {
 }
 
 class _EventAmount extends StatelessWidget {
-  const _EventAmount({Key key, required this.amount}) : super(key: key);
+  const _EventAmount({Key? key, required this.amount}) : super(key: key);
 
   final double amount;
 
@@ -456,7 +456,7 @@ class _EventAmount extends StatelessWidget {
 }
 
 class _EventDate extends StatelessWidget {
-  const _EventDate({Key key, required this.date}) : super(key: key);
+  const _EventDate({Key? key, required this.date}) : super(key: key);
 
   final DateTime date;
 
@@ -472,7 +472,7 @@ class _EventDate extends StatelessWidget {
 }
 
 class _EventTitle extends StatelessWidget {
-  const _EventTitle({Key key, required this.title}) : super(key: key);
+  const _EventTitle({Key? key, required this.title}) : super(key: key);
 
   final String title;
 

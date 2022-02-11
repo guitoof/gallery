@@ -25,7 +25,7 @@ double desktopCategoryMenuPageWidth({
 
 class CategoryMenuPage extends StatelessWidget {
   const CategoryMenuPage({
-    Key key,
+    Key? key,
     this.onCategoryTap,
   }) : super(key: key);
 

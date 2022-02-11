@@ -13,7 +13,7 @@ import 'package:gallery/demos/material/material_demo_types.dart';
 
 class BottomNavigationDemo extends StatefulWidget {
   const BottomNavigationDemo({
-    Key key,
+    Key? key,
     required this.restorationId,
     required this.type,
   }) : super(key: key);
@@ -134,7 +134,7 @@ class _BottomNavigationDemoState extends State<BottomNavigationDemo>
 }
 
 class _NavigationDestinationView extends StatelessWidget {
-  const _NavigationDestinationView({Key key, this.item}) : super(key: key);
+  const _NavigationDestinationView({Key? key, this.item}) : super(key: key);
 
   final BottomNavigationBarItem item;
 

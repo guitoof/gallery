@@ -19,7 +19,7 @@ const _peakVelocityProgress = 0.379146;
 
 class _FrontLayer extends StatelessWidget {
   const _FrontLayer({
-    Key key,
+    Key? key,
     this.onTap,
     this.child,
   }) : super(key: key);
@@ -69,7 +69,7 @@ class _FrontLayer extends StatelessWidget {
 
 class _BackdropTitle extends AnimatedWidget {
   const _BackdropTitle({
-    Key key,
+    Key? key,
     Animation<double> listenable,
     this.onPress,
     required this.frontTitle,
@@ -187,7 +187,7 @@ class _BackdropTitle extends AnimatedWidget {
 /// front or back layer is showing.
 class Backdrop extends StatefulWidget {
   const Backdrop({
-    Key key,
+    Key? key,
     required this.frontLayer,
     required this.backLayer,
     required this.frontTitle,
@@ -372,7 +372,7 @@ class _BackdropState extends State<Backdrop>
 
 class DesktopBackdrop extends StatelessWidget {
   const DesktopBackdrop({
-    Key key,
+    Key? key,
     required this.frontLayer,
     required this.backLayer,
   }) : super(key: key);

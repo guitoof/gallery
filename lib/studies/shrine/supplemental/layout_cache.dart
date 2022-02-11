@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 
 class LayoutCache extends InheritedWidget {
   const LayoutCache({
-    Key key,
+    Key? key,
     required this.layouts,
     required Widget child,
   }) : super(key: key, child: child);

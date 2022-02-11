@@ -12,7 +12,7 @@ import 'package:flutter_gen/gen_l10n/gallery_localizations.dart';
 // BEGIN textFieldDemo
 
 class TextFieldDemo extends StatelessWidget {
-  const TextFieldDemo({Key key}) : super(key: key);
+  const TextFieldDemo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +27,7 @@ class TextFieldDemo extends StatelessWidget {
 }
 
 class TextFormFieldDemo extends StatefulWidget {
-  const TextFormFieldDemo({Key key}) : super(key: key);
+  const TextFormFieldDemo({Key? key}) : super(key: key);
 
   @override
   TextFormFieldDemoState createState() => TextFormFieldDemoState();
@@ -42,7 +42,7 @@ class PersonData {
 
 class PasswordField extends StatefulWidget {
   const PasswordField({
-    Key key,
+    Key? key,
     this.restorationId,
     this.fieldKey,
     this.hintText,

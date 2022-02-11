@@ -11,7 +11,7 @@ import 'package:gallery/studies/shrine/supplemental/product_card.dart';
 
 class TwoProductCardColumn extends StatelessWidget {
   const TwoProductCardColumn({
-    Key key,
+    Key? key,
     required this.bottom,
     this.top,
     required this.imageAspectRatio,
@@ -57,7 +57,7 @@ class TwoProductCardColumn extends StatelessWidget {
 
 class OneProductCardColumn extends StatelessWidget {
   const OneProductCardColumn({
-    Key key,
+    Key? key,
     this.product,
     required this.reverse,
   }) : super(key: key);

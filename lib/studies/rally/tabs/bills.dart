@@ -14,7 +14,7 @@ import 'package:gallery/studies/rally/tabs/sidebar.dart';
 
 /// A page that shows a summary of bills.
 class BillsView extends StatefulWidget {
-  const BillsView({Key key}) : super(key: key);
+  const BillsView({Key? key}) : super(key: key);
 
   @override
   _BillsViewState createState() => _BillsViewState();

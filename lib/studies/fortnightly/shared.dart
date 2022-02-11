@@ -30,7 +30,7 @@ class ArticleData {
 }
 
 class HorizontalArticlePreview extends StatelessWidget {
-  const HorizontalArticlePreview({Key key, this.data, this.minutes})
+  const HorizontalArticlePreview({Key? key, this.data, this.minutes})
       : super(key: key);
 
   final ArticleData data;
@@ -83,7 +83,7 @@ class HorizontalArticlePreview extends StatelessWidget {
 
 class VerticalArticlePreview extends StatelessWidget {
   const VerticalArticlePreview({
-    Key key,
+    Key? key,
     this.data,
     this.width,
     this.headlineTextStyle,
@@ -235,7 +235,7 @@ List<Widget> buildArticlePreviewItems(BuildContext context) {
 }
 
 class HashtagBar extends StatelessWidget {
-  const HashtagBar({Key key}) : super(key: key);
+  const HashtagBar({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -296,7 +296,7 @@ class HashtagBar extends StatelessWidget {
 }
 
 class NavigationMenu extends StatelessWidget {
-  const NavigationMenu({Key key, this.isCloseable = false}) : super(key: key);
+  const NavigationMenu({Key? key, this.isCloseable = false}) : super(key: key);
 
   final bool isCloseable;
 
@@ -339,7 +339,7 @@ class NavigationMenu extends StatelessWidget {
 }
 
 class MenuItem extends StatelessWidget {
-  const MenuItem(this.title, {Key key, this.header = false}) : super(key: key);
+  const MenuItem(this.title, {Key? key, this.header = false}) : super(key: key);
 
   final String title;
   final bool header;
@@ -371,7 +371,7 @@ class MenuItem extends StatelessWidget {
 }
 
 class StockItem extends StatelessWidget {
-  const StockItem({Key key, this.ticker, this.price, this.percent})
+  const StockItem({Key? key, this.ticker, this.price, this.percent})
       : super(key: key);
 
   final String ticker;
@@ -488,7 +488,7 @@ List<Widget> buildStockItems(BuildContext context) {
 }
 
 class VideoPreview extends StatelessWidget {
-  const VideoPreview({Key key, this.data, this.time}) : super(key: key);
+  const VideoPreview({Key? key, this.data, this.time}) : super(key: key);
 
   final ArticleData data;
   final String time;

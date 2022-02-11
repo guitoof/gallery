@@ -16,7 +16,7 @@ import 'package:gallery/studies/rally/app.dart';
 import 'package:gallery/studies/rally/colors.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({Key key}) : super(key: key);
+  const LoginPage({Key? key}) : super(key: key);
 
   @override
   _LoginPageState createState() => _LoginPageState();
@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> with RestorationMixin {
 
 class _MainView extends StatelessWidget {
   const _MainView({
-    Key key,
+    Key? key,
     this.usernameController,
     this.passwordController,
   }) : super(key: key);
@@ -136,7 +136,7 @@ class _MainView extends StatelessWidget {
 
 class _TopBar extends StatelessWidget {
   const _TopBar({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -198,7 +198,7 @@ class _TopBar extends StatelessWidget {
 
 class _SmallLogo extends StatelessWidget {
   const _SmallLogo({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -220,7 +220,7 @@ class _SmallLogo extends StatelessWidget {
 
 class _UsernameInput extends StatelessWidget {
   const _UsernameInput({
-    Key key,
+    Key? key,
     this.maxWidth,
     this.usernameController,
   }) : super(key: key);
@@ -248,7 +248,7 @@ class _UsernameInput extends StatelessWidget {
 
 class _PasswordInput extends StatelessWidget {
   const _PasswordInput({
-    Key key,
+    Key? key,
     this.maxWidth,
     this.passwordController,
   }) : super(key: key);
@@ -344,7 +344,7 @@ class _ThumbButtonState extends State<_ThumbButton> {
 
 class _LoginButton extends StatelessWidget {
   const _LoginButton({
-    Key key,
+    Key? key,
     required this.onTap,
     this.maxWidth,
   }) : super(key: key);
@@ -378,7 +378,7 @@ class _LoginButton extends StatelessWidget {
 }
 
 class _BorderButton extends StatelessWidget {
-  const _BorderButton({Key key, required this.text}) : super(key: key);
+  const _BorderButton({Key? key, required this.text}) : super(key: key);
 
   final String text;
 
@@ -402,7 +402,7 @@ class _BorderButton extends StatelessWidget {
 }
 
 class _FilledButton extends StatelessWidget {
-  const _FilledButton({Key key, required this.text, required this.onTap})
+  const _FilledButton({Key? key, required this.text, required this.onTap})
       : super(key: key);
 
   final String text;

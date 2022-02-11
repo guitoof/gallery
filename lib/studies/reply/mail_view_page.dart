@@ -7,7 +7,7 @@ import 'package:gallery/studies/reply/profile_avatar.dart';
 import 'package:provider/provider.dart';
 
 class MailViewPage extends StatelessWidget {
-  const MailViewPage({Key key, required this.id, required this.email})
+  const MailViewPage({Key? key, required this.id, required this.email})
       : assert(id != null),
         assert(email != null),
         super(key: key);

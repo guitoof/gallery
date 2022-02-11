@@ -15,7 +15,7 @@ import 'package:gallery/studies/crane/model/destination.dart';
 const mobileThumbnailSize = 60.0;
 
 class DestinationCard extends StatelessWidget {
-  const DestinationCard({Key key, required this.destination})
+  const DestinationCard({Key? key, required this.destination})
       : assert(destination != null),
         super(key: key);
   final Destination destination;

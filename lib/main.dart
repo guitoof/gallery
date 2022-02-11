@@ -26,7 +26,7 @@ void main() {
 
 class GalleryApp extends StatelessWidget {
   const GalleryApp({
-    Key key,
+    Key? key,
     this.initialRoute,
     this.isTestMode = false,
   }) : super(key: key);
@@ -86,7 +86,7 @@ class GalleryApp extends StatelessWidget {
 
 class RootPage extends StatelessWidget {
   const RootPage({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

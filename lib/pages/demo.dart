@@ -37,7 +37,7 @@ enum _DemoState {
 
 class DemoPage extends StatefulWidget {
   const DemoPage({
-    Key key,
+    Key? key,
     required this.slug,
   }) : super(key: key);
 
@@ -77,7 +77,7 @@ class _DemoPageState extends State<DemoPage> {
 
 class GalleryDemoPage extends StatefulWidget {
   const GalleryDemoPage({
-    Key key,
+    Key? key,
     required this.restorationId,
     required this.demo,
   }) : super(key: key);
@@ -545,7 +545,7 @@ class _GalleryDemoPageState extends State<GalleryDemoPage>
 
 class _DemoSectionOptions extends StatelessWidget {
   const _DemoSectionOptions({
-    Key key,
+    Key? key,
     this.maxHeight,
     this.maxWidth,
     this.configurations,
@@ -617,7 +617,7 @@ class _DemoSectionOptions extends StatelessWidget {
 
 class _DemoSectionOptionsItem extends StatelessWidget {
   const _DemoSectionOptionsItem({
-    Key key,
+    Key? key,
     this.title,
     this.isSelected,
     this.onTap,
@@ -653,7 +653,7 @@ class _DemoSectionOptionsItem extends StatelessWidget {
 
 class _DemoSectionInfo extends StatelessWidget {
   const _DemoSectionInfo({
-    Key key,
+    Key? key,
     this.maxHeight,
     this.maxWidth,
     this.title,
@@ -708,7 +708,7 @@ class _DemoSectionInfo extends StatelessWidget {
 
 class DemoWrapper extends StatelessWidget {
   const DemoWrapper({
-    Key key,
+    Key? key,
     required this.height,
     required this.buildRoute,
   }) : super(key: key);
@@ -746,7 +746,7 @@ class DemoWrapper extends StatelessWidget {
 
 class _DemoSectionCode extends StatelessWidget {
   const _DemoSectionCode({
-    Key key,
+    Key? key,
     this.maxHeight,
     this.codeWidget,
   }) : super(key: key);
@@ -774,7 +774,7 @@ class _DemoSectionCode extends StatelessWidget {
 }
 
 class CodeDisplayPage extends StatelessWidget {
-  const CodeDisplayPage(this.code, {Key key}) : super(key: key);
+  const CodeDisplayPage(this.code, {Key? key}) : super(key: key);
 
   final CodeDisplayer code;
 

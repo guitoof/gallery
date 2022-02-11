@@ -14,7 +14,7 @@ import 'package:gallery/demos/cupertino/demo_types.dart';
 
 class CupertinoAlertDemo extends StatefulWidget {
   const CupertinoAlertDemo({
-    Key key,
+    Key? key,
     required this.type,
   }) : super(key: key);
 
@@ -355,7 +355,7 @@ class _CupertinoAlertDemoState extends State<CupertinoAlertDemo>
 
 class CupertinoDessertDialog extends StatelessWidget {
   const CupertinoDessertDialog({
-    Key key,
+    Key? key,
     this.title,
     this.content,
   }) : super(key: key);

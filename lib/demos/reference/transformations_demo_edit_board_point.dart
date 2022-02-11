@@ -15,7 +15,7 @@ const backgroundColor = Color(0xFF272727);
 @immutable
 class EditBoardPoint extends StatelessWidget {
   const EditBoardPoint({
-    Key key,
+    Key? key,
     required this.boardPoint,
     this.onColorSelection,
   })  : assert(boardPoint != null),

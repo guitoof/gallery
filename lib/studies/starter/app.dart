@@ -13,7 +13,7 @@ import 'package:gallery/studies/starter/routes.dart' as routes;
 const _primaryColor = Color(0xFF6200EE);
 
 class StarterApp extends StatelessWidget {
-  const StarterApp({Key key}) : super(key: key);
+  const StarterApp({Key? key}) : super(key: key);
 
   static const String defaultRoute = routes.defaultRoute;
 

@@ -17,7 +17,7 @@ import 'package:provider/provider.dart';
 final rootNavKey = GlobalKey<NavigatorState>();
 
 class ReplyApp extends StatefulWidget {
-  const ReplyApp({Key key}) : super(key: key);
+  const ReplyApp({Key? key}) : super(key: key);
 
   static const String homeRoute = routes.homeRoute;
   static const String composeRoute = routes.composeRoute;

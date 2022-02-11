@@ -22,7 +22,7 @@ class DisplayOption {
 }
 
 class SlowMotionSetting extends StatelessWidget {
-  const SlowMotionSetting({Key key}) : super(key: key);
+  const SlowMotionSetting({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -79,7 +79,7 @@ class SlowMotionSetting extends StatelessWidget {
 
 class SettingsListItem<T> extends StatefulWidget {
   const SettingsListItem({
-    Key key,
+    Key? key,
     required this.optionsMap,
     required this.title,
     required this.selectedOption,
@@ -258,7 +258,7 @@ class _SettingsListItemState<T> extends State<SettingsListItem<T>>
 
 class _CategoryHeader extends StatelessWidget {
   const _CategoryHeader({
-    Key key,
+    Key? key,
     this.margin,
     this.padding,
     this.borderRadius,
